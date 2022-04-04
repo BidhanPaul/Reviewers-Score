@@ -1,0 +1,62 @@
+.discount-section-conatiner {
+    display: flex;
+    align-items: center;
+}
+
+.discount-section-conatiner img {
+    width: 30%;
+}
+
+.half-width-home {
+    width: 50%;
+}
+
+.half-width-home img {
+    width: 50%;
+    margin-left: 200px;
+}
+
+.half-width-home h1 {
+    font-size: 50px;
+    margin: 0;
+
+}
+
+.half-width-home p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.heading-color {
+    color: rgba(37, 33, 255, 0.61);
+}
+
+.btn-home {
+    color: white;
+    background-color: rgba(37, 33, 255, 0.61);
+    border: none;
+    height: 50px;
+    width: 150px;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-home:hover {
+    background-color: indigo;
+}
+
+.review-conatainer button {
+    margin-top: 15px;
+    color: white;
+    background-color: rgba(37, 33, 255, 0.61);
+    border: none;
+    height: 50px;
+    width: 150px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+.review-conatainer button:hover {
+    background-color: indigo;
+}

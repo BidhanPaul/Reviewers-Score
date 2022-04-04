@@ -1,0 +1,28 @@
+.notfound_conatiner {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.notfound_conatiner h1 {
+    margin: 0px;
+    color: rgb(115, 115, 255);
+}
+
+.notfound_conatiner button {
+    margin-top: 15px;
+    color: white;
+    background-color: rgba(37, 33, 255, 0.61);
+    border: none;
+    height: 50px;
+    width: 150px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+.notfound_conatiner button:hover {
+    background-color: indigo;
+}
+
+.notfound-img img {
+    width: 40%;
+}
