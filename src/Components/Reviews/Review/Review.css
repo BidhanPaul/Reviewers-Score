@@ -1,0 +1,10 @@
+.review-card {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.review-card p {
+    margin: 0;
+}
