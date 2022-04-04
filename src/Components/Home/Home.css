@@ -3,10 +3,6 @@
     align-items: center;
 }
 
-.discount-section-conatiner img {
-    width: 30%;
-}
-
 .half-width-home {
     width: 50%;
 }
@@ -62,4 +58,81 @@
 .review-conatainer button:hover {
     background-color: indigo;
 
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .discount-section-conatiner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+
+    .discount-section-conatiner img {
+        width: 70%;
+        margin: 0px;
+    }
+
+    .discount-section-conatiner h1 {
+        font-size: 20px;
+    }
+
+    .discount-section-conatiner p {
+        font-size: 15px;
+    }
+
+    .discount-section-conatiner button {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .discount-section-conatiner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+
+    .discount-section-conatiner img {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .discount-section-conatiner h1 {
+        font-size: 20px;
+    }
+
+    .discount-section-conatiner p {
+        font-size: 15px;
+    }
+
+    .discount-section-conatiner button {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .discount-section-conatiner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+
+    .discount-section-conatiner img {
+        width: 70%;
+        margin: 0px;
+    }
+
+    .discount-section-conatiner h1 {
+        font-size: 20px;
+    }
+
+    .discount-section-conatiner p {
+        font-size: 15px;
+    }
+
+    .discount-section-conatiner button {
+        width: 50%;
+    }
 }
