@@ -55,8 +55,11 @@
     width: 150px;
     font-weight: 700;
     border-radius: 8px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .review-conatainer button:hover {
     background-color: indigo;
+
 }

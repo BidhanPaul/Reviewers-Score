@@ -23,3 +23,7 @@
     border-radius: 100px;
     border: 5px solid rgb(194, 187, 255);
 }
+
+.star-color {
+    color: orange;
+}
