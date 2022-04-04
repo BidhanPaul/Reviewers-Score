@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
-    align-content: center;
 }
 
 .review-conatainer h1 {
