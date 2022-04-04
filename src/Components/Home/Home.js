@@ -26,7 +26,7 @@ const Home = () => {
                 </div>
                 <div className='review'>
                     {
-                        reviews.map(review => <Review
+                        reviews.slice(0, 3).map(review => <Review
                             key={review.id}
                             review={review}
                         ></Review>)
