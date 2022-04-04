@@ -4,7 +4,6 @@ import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import NotFound from './Components/NotFound/NotFound';
 import Reviews from './Components/Reviews/Reviews';
-//This is a comment 
 function App() {
   return (
     <div>
