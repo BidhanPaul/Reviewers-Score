@@ -8,7 +8,7 @@ const Blog = () => {
         <div className='blog-container'>
             <div className='blog'>
                 <div>
-                    <h1>What is Context API</h1>
+                    <h1>What is Context API?</h1>
                     <p>In React, the context API is a method for React application functionally generate Global variables that can be passed around. This is an alternative to “Prop drilling” or shifting props to grandparent to child parent etc. This is an easier and lighter approach to state management.</p>
                 </div>
                 <div className='img-1'>
@@ -17,7 +17,7 @@ const Blog = () => {
             </div>
             <div className='blog'>
                 <div>
-                    <h1>What is Semantic Tag</h1>
+                    <h1>What is Semantic Tag?</h1>
                     <p>Semantic tag are some special HTML tags that makes a HTML page meaningful. Each tags describes its meaning to the browser and also to the developer. These tags are so important because that makes the HTML more comprehensible by better describing the different section and layout of web pages.</p>
                 </div>
                 <div>
